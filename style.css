@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: 'Nunito', sans-serif;}
+
+.font-14{font-size: 14px;}
+.font-18 {font-size: 18px;}
+.font-700{font-weight: 700;}
+.rounded-2rem{border-radius: 2rem!important;}
+.rounded-start-2rem{border-radius: 2rem;}
+
+.border-dash{border-style: dashed !important;}
+.btn-primary {color: #fff; background-color: #fd560d; border-color: #eb5f0a;}
+.btn-primary:hover {color: #fff;background-color: #ff794a;border-color: #ff794a;}
+
+.nav-tabs .nav-link.active {color: #f9f9f9!important;background-color: #58b4ae!important;border-color: #58b4ae #58b4ae #58b4ae!important;}
+.nav-tabs .nav-link {margin-bottom: -1px;background: #dfdede;border: 1px solid #bdbcbc;border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;color: #000;}
+.tab-content{min-height: 500px;}
+
+.que{position: relative;}
+.que:after {content: "\f059";position: absolute; font-family: "Font Awesome 5 Pro";font-weight: 800;color: #666; margin-left: 10px;}
+
+.before-border::before {border-color: rgb(83 85 86) transparent transparent;border-style: solid;border-width: 21px 1px 0px 10px; content: "";position: absolute; left: 0; bottom: -16px;transition: all 1s ease 0s;}
+.before-border::after {border-color: rgb(13 110 253) transparent transparent; border-style: solid;border-width: 21px 1px 0px 10px;content: "";position: absolute;left: 0;bottom: -16px;transition: all 1s ease 0s;}

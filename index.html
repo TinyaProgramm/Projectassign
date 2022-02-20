@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 my-5">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="htmlcss-tab" data-bs-toggle="tab" data-bs-target="#htmlcss"
+              type="button" role="tab" aria-controls="htmlcss" aria-selected="true">HTML/CSS</button>
+            <button class="nav-link" id="jquery-tab" data-bs-toggle="tab" data-bs-target="#jquery" type="button"
+              role="tab" aria-controls="jquery" aria-selected="false">jQuery</button>
+            <button class="nav-link" id="Javascript-tab" data-bs-toggle="tab" data-bs-target="#Javascript" type="button"
+              role="tab" aria-controls="Javascript" aria-selected="false">JAVASCRIPT</button>
+            <button class="nav-link" id="ajax-tab" data-bs-toggle="tab" data-bs-target="#ajax" type="button" role="tab"
+              aria-controls="ajax" aria-selected="false">AJAX</button>
+          </div>
+        </nav>
+        <div class="tab-content border border-top-0" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="htmlcss" role="tabpanel" aria-labelledby="htmlcss-tab">
+            <div class="row justify-content-center align-items-center align-content-center">
+              <div class="col-md-10 my-5">
+                <div class="card border border-primary">
+                  <div class="card-header py-4 bg-white border-dash border-top-0 border-start-0 border-end-0">
+                    <div class="row d-flex justify-content-between align-items-center position-relative mb-3">
+                      <div class="col-3 p-0  position-absolute left-0 top-0" style="left: -15px;">
+                        <p
+                          class="mb-0 bg-primary p-3 text-white rounded-3 font-18 text-uppercase font-700 before-border">
+                          Invoice Raise for and resourses on</p>
+                      </div>
+                      <div class="col-7 ms-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <div>
+                            <div class="logo">
+                              <img src="logo.png" class="img-fluid">
+                            </div>
+                          </div>
+                          <div class="ms-2">
+                            <p class="mb-0 font-700">ABC MAnufacturing Business Pvt Ltd</p>
+                            <p class="mb-0 text-muted font-14">(VC funding of - $373.7 M, Brokerage reduced by 33%)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2 text-end">
+                        <button class="btn btn-outline-info" type="button"> Deal Details </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body p-0">
+                    <div
+                      class="d-flex justify-content-between p-3 border-top-0 border-end-0 border-start-0 border-bottom  border-dash ">
+                      <div>
+                        <p class="mb-0">Invoice Raised by Vender ID : <strong>COL4XP9ZGMK3 | <i
+                              class="fa fa-map-marker-alt"></i> Gurgaon</strong></p>
+                      </div>
+                      <div>
+                        <p class="mb-0">Deal Value: <strong>₹ 1,26,11,635</strong></p>
+                      </div>
+                    </div>
+                    <div class="p-3">
+                      <div class="row">
+                        <div class="col-md-3 border-end">
+                          <p class="text-uppercase mb-2 text-muted que">EXP.GROSS YIELD </p>
+                          <h3 class="mb-4 font-700">12.5%</h3>
+                          <p class="text-uppercase mb-2 text-muted que">TENURE</p>
+                          <h3 class="mb-4 font-700">87 <span class="text-muted">Days</span></h3>
+                          <p class="text-uppercase mb-2 text-muted que">XScore V2.0</p>
+                          <h3 class="text-success mb-0 font-700">763</h3>
+
+                        </div>
+                        <div class="col-md-9">
+                          <div class="row">
+                            <div class="col-md-12 mt-3 mb-5">
+                              <div class="progress rounded-2rem">
+                                <div class="progress-bar bg-warning " role="progressbar" style="width: 37%;"
+                                  aria-valuenow="37" aria-valuemin="0" aria-valuemax="100">37%</div>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-start">
+                                <span>₹ 0</span>
+                                <span>37% Funded</span>
+                                <span>₹ 1.26 Crores</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                              <button class="btn btn-outline-secondary rounded-2rem">₹ 5Lakh</button>
+                              <button class="btn btn-outline-secondary rounded-2rem">₹ 8Lakh</button>
+                              <button class="btn btn-outline-secondary rounded-2rem">Max</button>
+                            </div>
+                            <div>
+
+                              <div class="input-group mb-1">
+                                <input type="text" class="form-control rounded-start-2rem border-end-0"
+                                  placeholder="₹ 0" aria-label=" " aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary border rounded-start-2rem border-start-0"
+                                  type="button" id="button-addon2"><i class="fa fa-times"></i></button>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mb-4 px-2">
+                                <p class="font-14">Min : ₹ 3 Lakh</p>
+                                <p class="font-14">Max : ₹ 79.93 Lakh</p>
+                              </div>
+                              <div class="d-flex">
+                                <button class="btn btn-primary w-100">Buy Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="jquery" role="tabpanel" aria-labelledby="jquery-tab">
+            <div class="row d-flex  justify-content-center align-items-center align-content-center">
+              <div class="col-md-5 my-5">
+                <div class="card">
+                  <div class="card-body bg-light">
+                    <form class="form-section bcpenquiryForm" action=" " method="post" onsubmit="return bcpForm();">
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group required">
+                            <label class="control-label mb-2">First Name</label>
+                            <input type="text" size="20" class="form-control card-number char-only" maxlength="25"
+                              id="firstname" name="firstname" autocomplete="off">
+                          </div>
+                          <p class="alert alert-danger text-center mb-0 py-1 validationalert" style="display: none"></p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group required">
+                            <label class="control-label mb-2">Age</label>
+                            <input type="text" size="20" class="form-control card-number number-only" maxlength="2"
+                              id="age" name="age" autocomplete="off">
+                          </div>
+                          <p class="alert alert-danger text-center mb-0 py-1 validationalert" style="display: none"></p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group required">
+                            <label class="control-label mb-2">PAN No</label>
+                            <input type="text" size="20" class="form-control  " maxlength="50" id="pan" name="pan"
+                              autocomplete="off">
+                          </div>
+                          <p class="alert alert-danger text-center mb-0 py-1 validationalert" style="display: none"></p>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group required">
+                            <label class="control-label mb-2">Email ID</label>
+                            <input type="text" size="20" class="form-control card-number" maxlength="100" id="email"
+                              name="email" autocomplete="off">
+                          </div>
+                          <p class="alert alert-danger text-center mb-0 py-1 validationalert" style="display: none"></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <button class="btn btn-primary btn-block" value="Submit" name="Submit"
+                            type="submit">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Javascript" role="tabpanel" aria-labelledby="Javascript-tab">
+            <div class="row align-items-center">
+              <div class="col-md-7 p-4">
+                <canvas id="myChart" style="width:100%;max-width:500px"></canvas>
+              </div>
+              <div class="col-md-5 px-3">
+                <div class="card d-flex flex-column align-content-center p-5">
+                  <div class="row g-3 align-items-center">
+                    <div class="col-5 mt-0">
+                      <label for="num1" class="col-form-label">Total Income</label>
+                    </div>
+                    <div class="col-7">
+                      <input id="num1" class="form-control mb-3" type="text" placeholder="">
+                    </div>
+                  </div>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-5 mt-0">
+                      <label for="num2" class="col-form-label">Total Expenditure</label>
+                    </div>
+                    <div class="col-7">
+                      <input id="num2" class="form-control mb-3" type="text" placeholder="">
+                    </div>
+                  </div>
+                  <div class="row g-3 align-items-center">
+                    <div class="col-5 "></div>
+                    <div class="col-7 text-center">
+                      <button type="submit" class="btn btn-primary " onclick="chngnum()">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ajax" role="tabpanel" aria-labelledby="ajax-tab">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="core.js"></script>
+
+</body>
+
+</html>
